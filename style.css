@@ -1,0 +1,610 @@
+/* reset */
+body{
+    font-size: 0;
+}
+body,p,h1,div,ul,span{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+input, button{
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline: none;
+}
+
+
+/* general style */
+body{
+    line-height: 1.5;
+    font-family: Tahoma, Arial, serif;
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+
+/* header */
+#header{
+    height: 80px;
+    box-shadow: 0 12px 8px -12px #888888;
+    margin-bottom: 30px;
+}
+
+#header .menu {
+    margin-top: 20px;
+    float: left;
+    width: 20%;
+    font-size: 30px;
+    margin-left: 3%;
+    position: relative;
+    display: inline-block;
+}
+
+#header .menu-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 200px;
+    box-shadow: 0 8px 16px 0 #888888;
+    z-index: 1;
+    font-size: 20px;
+    background: #f9f9f9;
+}
+
+#header .menu:hover .menu-content {
+    display: block;
+}
+
+#header .menu-content li {
+    margin: 5px;
+    padding: 13px;
+    font-size: 22px;
+}
+
+#header .center-in-menu {
+    border-left: 0;
+    border-right: 0;
+    border-top: 3px dimgrey;
+    border-bottom: 3px dimgrey;
+    border-style: dotted;
+}
+
+#header .header-title{
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    width: 54%;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+#header .header-title p{
+    font-family: "Times New Roman", serif;
+}
+
+#header .header-logo{
+    margin-top: 5px;
+    float: left;
+    width: 20%;
+    margin-right: 3%;
+}
+
+#header .header-logo img{
+    float: right;
+    width: auto;
+    height: 60px;
+}
+
+/* footer */
+#footer{
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 30px;
+    height: 170px;
+    box-shadow: 0 -10px 10px -10px #888888;
+    background: bisque;
+    color: black;
+}
+
+#footer .contact_info{
+    margin-top: 20px;
+    font-size: large;
+    float: left;
+    width: 50%;
+}
+
+#footer .footer-logo{
+    float: left;
+    width: 50%;
+}
+
+#footer .footer-logo img{
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+/* index page */
+#content h1{
+    margin-top: 0;
+    color: goldenrod;
+}
+
+#content h3{
+    color: goldenrod;
+}
+
+#content p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#content .intro{
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background: linear-gradient(to top, bisque, white);
+}
+
+#content .why{
+    padding-right: 8%;
+    padding-left: 8%;
+    height: 1100px;
+    background: url("why.jpeg") no-repeat;
+    background-size: cover;
+}
+
+#content .why h1{
+    padding-top: 5px;
+    text-align: right;
+    font-size: 50px;
+}
+
+#content .why h3{
+    text-align: center;
+}
+
+#content .why p{
+    text-align: center;
+}
+
+#content .why div{
+    width: 31.33%;
+    height: 30%;
+    display: inline-block;
+    margin: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    background: bisque;
+    border-radius: 8%;
+    box-shadow: 0 8px 16px 0 #888888;
+    opacity: 80%;
+}
+
+#content .why .animal-welfare{
+    float: left;
+}
+
+#content .why .animal-control{
+    margin-top: 5%;
+    background: goldenrod;
+    height: 20%;
+}
+
+#content .why .animal-control h3{
+    color: #3c3c3c;
+}
+
+#content .why .disease-control{
+    float: right;
+}
+
+#content .why .community-safety{
+    float: left;
+    margin-left: 18%;
+    height: 27%;
+    background: linear-gradient(270deg, burlywood, floralwhite);
+}
+
+#content .why .community-safety h3{
+    color: #3c3c3c;
+}
+
+#content .why .moral-obligations h3{
+    color: #3c3c3c;
+}
+
+#content .why .moral-obligations{
+    height: 27%;
+    background: linear-gradient(90deg, burlywood, floralwhite);
+}
+
+#content .why .education-and-awareness-raising{
+    float: left;
+}
+
+#content .why .psychological-satisfaction{
+    float: right;
+}
+
+#content .why .how-button{
+    margin-top: 10%;
+    background: white;
+    height: 20%;
+}
+
+#content .why .how-button p{
+    text-align: center;
+    margin-top: 7%;
+}
+
+#content .why button{
+    width: 40%;
+}
+
+#content button{
+    margin-top: 5%;
+    margin-left: 30%;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#content button:hover {
+    background-color: bisque;
+    border: 3px solid;
+    color: black;
+    box-shadow: 0 12px 16px 0 #3c3c3c;
+}
+
+#content .impact{
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+#content .impact .bg{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#content .impact img{
+    opacity: 50%;
+    width: auto;
+    height: 100%;
+}
+
+#content .impact h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#content .impact .impact-title{
+    margin-top: 3%;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#content .impact .impact-content{
+    margin-top: 3%;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    height: 100%;
+}
+
+#content .impact .support-button{
+    margin-left: 60%;
+    position: absolute;
+    z-index: 2;
+    float: right;
+    width: 30%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+#content .why .how-button p{
+    text-align: center;
+    margin-top: 7%;
+}
+
+#content .impact button{
+    width: 80%;
+}
+
+/* how-to-help-stray-animals page */
+#how-content div{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#how-content p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#how-content h4{
+    font-size: 24px;
+    text-align: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#how-content .main-part{
+    margin-top: 20px;
+}
+
+#how-content .row1{
+    height: 250px;
+}
+
+#how-content .row2{
+    height: 300px;
+}
+
+#how-content .row3{
+    height: 280px;
+}
+
+#how-content .row4{
+    height: 220px;
+}
+
+#how-content .main-part div{
+    display: inline-block;
+    width: 41%;
+    height: 90%;
+    margin-top: 2%;
+    transition-duration: 300ms;
+    background-color: bisque;
+    border-radius: 5%;
+}
+
+#how-content .main-part .one{
+    margin-right: 1%;
+    float: left;
+    transition-duration: 300ms;
+    background-color: bisque;
+    border-radius: 5%;
+}
+
+#how-content .main-part .one:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .main-part .two{
+    margin-left: 1%;
+    float: right;
+}
+
+#how-content .main-part .two:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .main-part .three{
+    margin-right: 1%;
+    float: left;
+}
+
+#how-content .main-part .three:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .main-part .four{
+    margin-left: 1%;
+    float: right;
+}
+
+#how-content .main-part .four:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .main-part .five{
+    margin-right: 1%;
+    float: left;
+}
+
+#how-content .main-part .five:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .main-part .six{
+    margin-left: 1%;
+    float: right;
+}
+
+#how-content .main-part .six:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .main-part .seven{
+    width: 84%;
+    border-radius: 10%;
+}
+
+#how-content .main-part .seven:hover{
+    margin-top: -6px;
+    margin-bottom: 10px;
+    transition-duration: 300ms;
+    box-shadow: 0 8px 16px 0 #888888;
+    background-color: goldenrod;
+}
+
+#how-content .conclusion{
+    margin-top: 20px;
+}
+
+/* ways-to-support page */
+#volunteer{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 2%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#volunteer div{
+    display: inline-block;
+}
+
+#volunteer .bg{
+    margin-top: 10px;
+    height: 100%;
+    width: auto;
+}
+
+#volunteer .bg img{
+    width: auto;
+    height: 70%;
+}
+
+#volunteer .volunteer-title h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#volunteer .volunteer-title{
+    padding-top: 4%;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#volunteer .volunteer-content{
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+
+#volunteer ul{
+    list-style: disc;
+}
+
+.partition{
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+    background-color: goldenrod;
+}
+
+.partition h3{
+    margin: 0;
+    padding-top: 7px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#adoption{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 30px;
+}
+
+#adoption h1{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#adoption .bg{
+    display: inline-block;
+    margin-left: 3%;
+    width: 70%;
+    height: auto;
+}
+
+#adoption img{
+    width: 100%;
+    height: auto;
+}
+
+#adoption .bg-content{
+    width: 13%;
+    display: inline-block;
+    float: right;
+    margin-right: 9%;
+    margin-top: 9%;
+}
+
+#adoption .adoption-content{
+    margin-top: 3%;
+}
+
+#adoption ul{
+    list-style: disc;
+}
+
+#donation{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 30px;
+}
+
+#donation h1{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#donation p{
+    font-size: 16px;
+    text-align: center;
+}
